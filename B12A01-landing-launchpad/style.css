@@ -1,0 +1,21 @@
+
+/* font style */
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Nav Styles */
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+  width: 100%
+}
