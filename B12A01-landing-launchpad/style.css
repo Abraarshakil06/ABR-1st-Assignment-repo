@@ -7,15 +7,83 @@
   font-weight: bold;
   font-style: normal;
 }
+.header{
+  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+  max-width: auto;
+  height: 698px;
+}
+nav{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+list-style: none;
+margin: 0 150px;}
 
-/* Nav Styles */
-nav ul{
+.nav-title{
+  font-size: 34px;
+  color: #4E47FF;
+}
+  .nav-btn{color: #ffffff ;
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px ;
+  border-radius: 10px;
+  border: none;
+ }
+ nav ul li{
   list-style: none;
+ }
+ .banner-btn{
+  color: #ffffff ;
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px ;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  text-align: center;
+  margin-left: 620px;
+  
+ }
+
+.banner .banner-title{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.banner{
+  margin-top: auto;
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 152px;
+}
+span{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.banner-btn{
+  margin-bottom: 152px;
+}
+.action{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      margin-top: 116px;
 }
-
-nav{
-  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
-  width: 100%
+.action-image{
+  width: 403px;
+  height: 328px;
+  border-radius: 10px;
+}
+.action-btn{
+  
 }
